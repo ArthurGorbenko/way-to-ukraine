@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
           }}
         >
           © {new Date().getFullYear()} Developed by non-commercial organization
-          "Gorynich"
+          "Gorynych"
         </footer>
       </div>
     </div>
