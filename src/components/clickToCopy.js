@@ -65,7 +65,7 @@ const ClickToCopy = ({
           }}
           {...attributes.popper}
         >
-          Текст був скопійованний
+          Текст скопійовано
           <div ref={setArrowElement} style={styles.arrow} />
         </div>
       )}
