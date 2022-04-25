@@ -131,7 +131,7 @@ const IndexPage = () => {
           </ClickToCopy>
         </li>
         <li className={styles.listItem}>
-          <p className={styles.listItemName}>Crypto BTS:</p>
+          <p className={styles.listItemName}>Crypto BTC:</p>
           <ClickToCopy
             popperIds={popperIds}
             setPopperIds={setPopperIds}
