@@ -41,6 +41,9 @@ const IndexPage = () => {
         ваші внески. Також ми будемо вдячні за розповсюдження інформації про наш
         фонд.
       </p>
+      <p>
+        <i>Натисніть на номер гаманця, щоб скопіювати.</i>
+      </p>
       <ul style={{ marginLeft: 0 }}>
         <li className={styles.listItem}>
           <p className={styles.listItemName}>Приватбанк UAH</p>
@@ -142,7 +145,7 @@ const IndexPage = () => {
           </ClickToCopy>
         </li>
         <li className={styles.listItem}>
-          <p className={styles.listItemName}>Crypto (ETH(ERC20)):</p>
+          <p className={styles.listItemName}>Crypto ETH(ERC20):</p>
           <ClickToCopy
             popperIds={popperIds}
             setPopperIds={setPopperIds}
@@ -153,7 +156,7 @@ const IndexPage = () => {
           </ClickToCopy>
         </li>
         <li className={styles.listItem}>
-          <p className={styles.listItemName}>Crypto (TRC20):</p>
+          <p className={styles.listItemName}>Crypto TRC20:</p>
           <ClickToCopy
             popperIds={popperIds}
             setPopperIds={setPopperIds}
