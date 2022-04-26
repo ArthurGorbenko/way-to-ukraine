@@ -44,6 +44,7 @@ const IndexPage = () => {
       <p>
         <i>Натисніть на номер гаманця, щоб скопіювати.</i>
       </p>
+      <hr className={styles.line} />
       <ul style={{ marginLeft: 0 }}>
         <li className={styles.listItem}>
           <p className={styles.listItemName}>Приватбанк UAH</p>
@@ -78,6 +79,7 @@ const IndexPage = () => {
             4149499373566106
           </ClickToCopy>
         </li>
+        <hr className={styles.line} />
         <li className={styles.listItem}>
           <p className={styles.listItemName}>IBAN (EUR):</p>
           <ClickToCopy
@@ -122,6 +124,7 @@ const IndexPage = () => {
             PBANUA2X
           </ClickToCopy>
         </li>
+        <hr className={styles.line} />
         <li className={styles.listItem}>
           <p className={styles.listItemName}>PayPal: </p>
           <ClickToCopy

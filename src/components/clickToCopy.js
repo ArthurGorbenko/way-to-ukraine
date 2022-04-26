@@ -33,7 +33,7 @@ const ClickToCopy = ({
         ref={setReferenceElement}
         style={{
           border: "1px solid white",
-          padding: "2px 10px 7px",
+          padding: "2px 10px",
           borderRadius: 50,
           display: "inline-block",
           cursor: "pointer",

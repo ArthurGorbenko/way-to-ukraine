@@ -7,3 +7,7 @@
   margin-right: 10px;
   margin-bottom: 0px;
 }
+.line {
+  background: white;
+  margin-bottom: calc(1.45rem / 2);
+}
