@@ -42,8 +42,8 @@ module.exports = {
       resolve: `gatsby-plugin-react-i18next`,
       options: {
         localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
-        languages: [`en`, `es`, `de`],
-        defaultLanguage: `en`,
+        languages: [`en`, `uk`],
+        defaultLanguage: `uk`,
         // if you are using Helmet, you must include siteUrl, and make sure you add http:https
         siteUrl: `https://way-to-ukraine.com/`,
         // you can pass any i18next options
@@ -58,11 +58,6 @@ module.exports = {
           {
             matchPath: "/:lang?/blog/:uid",
             getLanguageFromPath: true,
-            excludeLanguages: ["es"],
-          },
-          {
-            matchPath: "/preview",
-            languages: ["en"],
           },
         ],
       },
