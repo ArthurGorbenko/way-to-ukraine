@@ -3,23 +3,25 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from "gatsby"
-import Credentials from "../layouts/credentials"
 
 const IndexPage = props => {
   const { t } = useTranslation()
 
   return (
     <Layout>
-      <Seo title="Way to Ukraine" />
-      <p>{t("intro")}</p>
-      <p>{t("explanation")}</p>
-      <p>{t("aim")}</p>
-      <p>{t("help")}</p>
+      <Seo title="Contact" />
       <p>
-        <i>{t("mention")}</i>
+        {t("contact.email")}
+        <a className="underline" href="mailto:gorbenkoartur.ur@gmail.com">
+          gorbenkoartur.ur@gmail.com
+        </a>
       </p>
-      <hr className="bg-white mb-3" />
-      <Credentials />
+      <p>
+        {t("contact.telegram")}
+        <a className="underline" href="tel:+380 50 474 0414">
+          +380 50 474 0414
+        </a>
+      </p>
     </Layout>
   )
 }

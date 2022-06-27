@@ -11,9 +11,6 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
         display: `flex`,
         justifyContent: "space-between",
         alignItems: "center",
@@ -36,7 +33,6 @@ const Header = ({ siteTitle }) => (
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt="A Gatsby astronaut"
-        style={{}}
       />
     </div>
   </header>

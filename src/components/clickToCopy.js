@@ -1,6 +1,7 @@
 import * as React from "react"
 import { usePopper } from "react-popper"
 import useMediaQuery from "../hooks/useMediaQuery"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 
 const ClickToCopy = ({
   children,
@@ -10,6 +11,7 @@ const ClickToCopy = ({
   setPopperIds,
 }) => {
   const isMobile = useMediaQuery("(max-width: 576px)")
+  const { t } = useTranslation()
   const [referenceElement, setReferenceElement] = React.useState(null)
   const [popperElement, setPopperElement] = React.useState(null)
   const [arrowElement, setArrowElement] = React.useState(null)
@@ -65,7 +67,7 @@ const ClickToCopy = ({
           }}
           {...attributes.popper}
         >
-          Текст скопійовано
+          {t("copied")}
           <div ref={setArrowElement} style={styles.arrow} />
         </div>
       )}
