@@ -31,7 +31,7 @@ const data = [
   },
   {
     body: "posts.6.body",
-    images: ["p7p1", "p1p2", "p1p3"],
+    images: ["p7p1"],
   },
   {
     body: "posts.7.body",
