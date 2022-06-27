@@ -66,6 +66,7 @@ const Post = ({ body, images }) => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            referrerpolicy="origin"
             className="w-full h-full top-0 left-0 absolute"
           ></iframe>
         </div>
