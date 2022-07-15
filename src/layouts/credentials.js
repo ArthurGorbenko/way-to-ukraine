@@ -72,6 +72,18 @@ const Credentials = () => {
           </ClickToCopy>
         </li>
         <li className="flex items-center flex-wrap">
+          <p className="mr-3 mb-0">Name of reciever</p>
+          <ClickToCopy
+            popperIds={popperIds}
+            setPopperIds={setPopperIds}
+            showPopper={showPopper}
+            setShowPopper={setShowPopper}
+          >
+            MELNYKOV SERHII, 01001, Ukraine,city Kyiv,street Dzhona
+            Makkeina,building 7,flat 330
+          </ClickToCopy>
+        </li>
+        <li className="flex items-center flex-wrap">
           <p className="mr-3 mb-0">Name of the bank: </p>
           <ClickToCopy
             popperIds={popperIds}

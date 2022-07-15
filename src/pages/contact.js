@@ -12,8 +12,8 @@ const IndexPage = props => {
       <Seo title="Contact" />
       <p>
         {t("contact.email")}
-        <a className="underline" href="mailto:gorbenkoartur.ur@gmail.com">
-          gorbenkoartur.ur@gmail.com
+        <a className="underline" href="mailto:melnykov_sergiy@ukr.net">
+          melnykov_sergiy@ukr.net
         </a>
       </p>
       <p>
