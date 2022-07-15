@@ -15,10 +15,6 @@ const IndexPage = props => {
       <p>{t("explanation")}</p>
       <p>{t("aim")}</p>
       <p>{t("help")}</p>
-      <p>
-        <i>{t("mention")}</i>
-      </p>
-      <hr className="bg-white mb-3" />
       <Credentials />
     </Layout>
   )
