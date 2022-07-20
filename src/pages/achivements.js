@@ -37,6 +37,10 @@ const data = [
     body: "posts.7.body",
     images: ["p8p1", "p8p2"],
   },
+  {
+    body: "posts.8.body",
+    images: [],
+  },
 ]
 
 const AchievementsPage = () => {

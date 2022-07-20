@@ -16,36 +16,36 @@ const Credentials = () => {
       <hr className="bg-white mb-3" />
       <ul style={{ marginLeft: 0 }}>
         <li className="flex items-center flex-wrap">
-          <p className="mr-3 mb-0">PrivatBank UAH</p>
+          <p className="mr-3 mb-0">Monobank UAH</p>
           <ClickToCopy
             popperIds={popperIds}
             setPopperIds={setPopperIds}
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            4149499373566536
+            5375411417441693
           </ClickToCopy>
         </li>
         <li className="flex items-center flex-wrap">
-          <p className="mr-3 mb-0">PrivatBank USD</p>
+          <p className="mr-3 mb-0">Monobank USD</p>
           <ClickToCopy
             popperIds={popperIds}
             setPopperIds={setPopperIds}
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            4149499373530177
+            4441114480845278
           </ClickToCopy>
         </li>
         <li className="flex items-center flex-wrap">
-          <p className="mr-3 mb-0">PrivatBank EUR</p>
+          <p className="mr-3 mb-0">Monobank EUR</p>
           <ClickToCopy
             popperIds={popperIds}
             setPopperIds={setPopperIds}
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            4149499373566106
+            4441114491222640
           </ClickToCopy>
         </li>
         <hr className="bg-white mb-3" />
@@ -57,7 +57,7 @@ const Credentials = () => {
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            UA603052990262096400933162129
+            UA233220010000026209329776082
           </ClickToCopy>
         </li>
         <li className="flex items-center flex-wrap">
@@ -68,7 +68,7 @@ const Credentials = () => {
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            UA833052990262076400932972013
+            UA393220010000026208329784655
           </ClickToCopy>
         </li>
         <li className="flex items-center flex-wrap">
@@ -91,7 +91,7 @@ const Credentials = () => {
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            JSC CB PRIVATBANK, 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE
+            JSK UNIVERSAL BANK
           </ClickToCopy>
         </li>
         <li className="flex items-center flex-wrap">
@@ -102,7 +102,7 @@ const Credentials = () => {
             showPopper={showPopper}
             setShowPopper={setShowPopper}
           >
-            PBANUA2X
+            UNJSUAUKXXX
           </ClickToCopy>
         </li>
         <hr className="bg-white mb-3" />

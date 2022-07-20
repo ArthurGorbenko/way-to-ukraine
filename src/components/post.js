@@ -25,6 +25,8 @@ import p7p1 from "../images/p7p1.png"
 import p8p1 from "../images/p8p1.png"
 import p8p2 from "../images/p8p2.png"
 
+import p9v1 from "../images/p9v1.mp4"
+
 import "swiper/css"
 import "swiper/css/navigation"
 
@@ -70,6 +72,11 @@ const Post = ({ body, images }) => {
             className="w-full h-full top-0 left-0 absolute"
           ></iframe>
         </div>
+      )}
+      {body === "posts.8.body" && (
+        <video controls width="540" className="mb-4">
+          <source src={p9v1} />
+        </video>
       )}
       <div>
         <Swiper
