@@ -25,7 +25,7 @@ import p7p1 from "../images/p7p1.png"
 import p8p1 from "../images/p8p1.png"
 import p8p2 from "../images/p8p2.png"
 
-import p9v1 from "../images/p9v1.mp4"
+import p9v1 from "../assets/p9v1.mp4"
 
 import "swiper/css"
 import "swiper/css/navigation"
@@ -75,7 +75,7 @@ const Post = ({ body, images }) => {
       )}
       {body === "posts.8.body" && (
         <video controls width="540" className="mb-4">
-          <source src={p9v1} />
+          <source src={p9v1} type="video/mp4"/>
         </video>
       )}
       <div>
