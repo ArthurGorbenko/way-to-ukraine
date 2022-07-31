@@ -18,7 +18,16 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-csp`,
+    // {
+    //   resolve: `gatsby-plugin-csp`,
+    //   options: {
+    //     disableOnDev: false,
+    //     directives: {
+    //       "style-src": "'self' 'unsafe-inline'",
+    //       "script-src": "'self' 'unsafe-inline' 'unsafe-eval'",
+    //     },
+    //   },
+    // },
     `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-robots-txt",
