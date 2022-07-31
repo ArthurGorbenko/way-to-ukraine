@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from "gatsby"
 import Credentials from "../layouts/credentials"
+import CurrentAim from "../layouts/currentAim"
 
 const IndexPage = props => {
   const { t } = useTranslation()
@@ -15,6 +16,7 @@ const IndexPage = props => {
       <p>{t("explanation")}</p>
       <p>{t("aim")}</p>
       <p>{t("help")}</p>
+      <CurrentAim />
       <Credentials />
     </Layout>
   )
