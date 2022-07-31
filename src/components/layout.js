@@ -1,7 +1,7 @@
 import * as React from "react"
-import { Link, useI18next, I18nextContext } from "gatsby-plugin-react-i18next"
+import { useI18next, I18nextContext } from "gatsby-plugin-react-i18next"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import * as styles from "./footer.module.css"
 import * as headerStyles from "./header.module.css"
 import "./layout.css"
@@ -32,39 +32,33 @@ const Layout = ({ children }) => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between pt-5 flex-wrap">
           <div className="flex flex-wrap">
-            <a className={headerStyles.navLink} href="/">
+            <Link className={headerStyles.navLink} to="/">
               {t("main")}
-            </a>
-            <a className={headerStyles.navLink} href="/achivements">
+            </Link>
+            <Link className={headerStyles.navLink} to="/achivements">
               {t("achievements")}
-            </a>
-            <a className={headerStyles.navLink} href="/credentials">
+            </Link>
+            <Link className={headerStyles.navLink} to="/credentials">
               {t("credentials")}
-            </a>
-            <a className={headerStyles.navLink} href="/contact">
+            </Link>
+            <Link className={headerStyles.navLink} to="/contact">
               {t("contact")}
-            </a>
+            </Link>
           </div>
           <div>
             {languages.map(l => (
-              <a
-                style={{
-                  color: "white",
-                  marginRight: 20,
-                  fontSize: 20,
-                  paddingTop: 20,
-                  textDecoration: language === l ? "underline" : "none",
-                  fontWeight: language === l ? 700 : 400,
-                }}
+              <button
+                className={`text-white mr-5 text-xl ${
+                  language === l ? "underline" : ""
+                } font-${language === l ? "bold" : "normal"}`}
                 key={l}
-                href="#"
                 onClick={e => {
                   e.preventDefault()
                   handleLanguageSwitch(l)
                 }}
               >
                 {l}
-              </a>
+              </button>
             ))}
           </div>
         </div>
