@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Way to Ukraine`,
     description: `Website of a volunteer foundation that delivers vehicles to Armed Forces of Ukraine.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `horbenko_artur@protonmail.com`,
+    siteUrl: `https://way-to-ukraine.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -17,7 +17,13 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    "gatsby-plugin-postcss",
+    `gatsby-plugin-postcss`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
