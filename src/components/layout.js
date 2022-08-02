@@ -10,10 +10,13 @@ import { useTranslation } from "gatsby-plugin-react-i18next"
 
 import Header from "./header"
 
+const links = ["main", "credentials", "contact", "achievements"]
+
 const Layout = ({ children }) => {
   const { t } = useTranslation()
   const { languages, changeLanguage } = useI18next()
   const { language } = React.useContext(I18nextContext)
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -32,18 +35,16 @@ const Layout = ({ children }) => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between pt-5 flex-wrap">
           <div className="flex flex-wrap">
-            <Link className={headerStyles.navLink} to="/">
-              {t("main")}
-            </Link>
-            <Link className={headerStyles.navLink} to="/achivements">
-              {t("achievements")}
-            </Link>
-            <Link className={headerStyles.navLink} to="/credentials">
-              {t("credentials")}
-            </Link>
-            <Link className={headerStyles.navLink} to="/contact">
-              {t("contact")}
-            </Link>
+            {links.map(link => (
+              <Link
+                className={headerStyles.navLink}
+                to={`${language === "en" ? "/en" : ""}/${
+                  link === "main" ? "" : link
+                }`}
+              >
+                {t(link)}
+              </Link>
+            ))}
           </div>
           <div>
             {languages.map(l => (
