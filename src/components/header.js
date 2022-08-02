@@ -4,26 +4,10 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        display: `flex`,
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            textDecoration: `none`,
-            color: "white",
-          }}
-        >
+  <header className="mb-[1.45rem]">
+    <div className="flex justify-between items-center">
+      <h1 className="m-0 text-6xl font-bold">
+        <Link to="/" className="decoration-none text-white">
           {siteTitle}
         </Link>
       </h1>

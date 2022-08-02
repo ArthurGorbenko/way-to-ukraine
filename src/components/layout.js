@@ -2,13 +2,10 @@ import * as React from "react"
 import { useI18next, I18nextContext } from "gatsby-plugin-react-i18next"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import * as styles from "./footer.module.css"
-import * as headerStyles from "./header.module.css"
-import "./layout.css"
-import "@fontsource/roboto"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 
 import Header from "./header"
+import "@fontsource/roboto"
 
 const links = ["main", "credentials", "contact", "achievements"]
 
@@ -37,7 +34,8 @@ const Layout = ({ children }) => {
           <div className="flex flex-wrap">
             {links.map(link => (
               <Link
-                className={headerStyles.navLink}
+                className="mr-5 text-white text-lg"
+                // className={headerStyles.navLink}
                 to={`${language === "en" ? "/en" : ""}/${
                   link === "main" ? "" : link
                 }`}
@@ -66,23 +64,17 @@ const Layout = ({ children }) => {
         <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
         <div className="pb-6">
           <main>{children}</main>
-          <footer
-            style={{
-              marginTop: `2rem`,
-              display: "flex",
-              justifyContent: "space-between",
-            }}
-          >
-            <div className={styles.date}>
+          <footer className="mt-8 flex justify-between">
+            <div className="max-w-[60%] sm:max-w-full">
               © {new Date().getFullYear()} Developed by non-commercial
               organization "Gorynych"
             </div>
-            <div className={styles.wrapper}>
+            <div className="flex flex-col sm:flex-row">
               <a
                 rel="noreferrer"
                 href="https://www.facebook.com/groups/way.to.ukraine"
                 target="_blank"
-                className={styles.link}
+                className="mr-0 mb-1 text-white sm:mr-3"
               >
                 <b>facebook</b>
               </a>
@@ -90,7 +82,7 @@ const Layout = ({ children }) => {
                 rel="noreferrer"
                 href="https://www.instagram.com/way.to.ukraine/"
                 target="_blank"
-                className={styles.link}
+                className="mr-0 mb-1 text-white sm:mr-3"
               >
                 <b>instagram</b>
               </a>

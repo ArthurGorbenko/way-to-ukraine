@@ -33,14 +33,7 @@ const ClickToCopy = ({
     <>
       <div
         ref={setReferenceElement}
-        style={{
-          border: "1px solid white",
-          padding: "2px 10px",
-          borderRadius: 50,
-          display: "inline-block",
-          cursor: "pointer",
-          wordBreak: "break-all",
-        }}
+        className="border border-white py-2 px-4 rounded-full cursor-pointer break-words inline-block"
         onClick={e => {
           navigator.clipboard.writeText(e.target.innerHTML)
           popperIds.forEach(id => clearInterval(id))
@@ -58,13 +51,8 @@ const ClickToCopy = ({
       {showPopper[children] && (
         <div
           ref={setPopperElement}
-          style={{
-            ...styles.popper,
-            background: isMobile ? "white" : "transparent",
-            color: isMobile ? "black" : "white",
-            padding: "3px 7px",
-            borderRadius: 50,
-          }}
+          style={styles.popper}
+          className="py-2 px-4 rounder-full sm:bg-transparent sm:text-white bg-white text-black"
           {...attributes.popper}
         >
           {t("copied")}

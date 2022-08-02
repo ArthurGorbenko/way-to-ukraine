@@ -11,7 +11,7 @@ const CurrentAim = () => {
       <p>{t("current-aim")}</p>
       <img src={currentAimPhoto} alt="current aim" />
       <a
-        className="underline"
+        className="underline inline-block mt-4"
         href="https://send.monobank.ua/jar/RtKwfh5Kn"
         target="blank"
       >

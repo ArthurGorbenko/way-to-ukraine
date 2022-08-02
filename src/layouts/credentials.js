@@ -15,7 +15,7 @@ const Credentials = () => {
       </p>
       <hr className="bg-white mb-3" />
       <ul style={{ marginLeft: 0 }}>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Monobank UAH</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -26,7 +26,7 @@ const Credentials = () => {
             5375411417441693
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Monobank USD</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -37,7 +37,7 @@ const Credentials = () => {
             4441114480845278
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Monobank EUR</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -49,7 +49,7 @@ const Credentials = () => {
           </ClickToCopy>
         </li>
         <hr className="bg-white mb-3" />
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">IBAN (EUR):</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -60,7 +60,7 @@ const Credentials = () => {
             UA233220010000026209329776082
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">IBAN (USD):</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -71,7 +71,7 @@ const Credentials = () => {
             UA393220010000026208329784655
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Name of reciever</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -83,7 +83,7 @@ const Credentials = () => {
             Makkeina,building 7,flat 330
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Name of the bank: </p>
           <ClickToCopy
             popperIds={popperIds}
@@ -94,7 +94,7 @@ const Credentials = () => {
             JSK UNIVERSAL BANK
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">SWIFT CODE/BIC: </p>
           <ClickToCopy
             popperIds={popperIds}
@@ -106,7 +106,7 @@ const Credentials = () => {
           </ClickToCopy>
         </li>
         <hr className="bg-white mb-3" />
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">PayPal: </p>
           <ClickToCopy
             popperIds={popperIds}
@@ -117,7 +117,7 @@ const Credentials = () => {
             melnykov_sergiy@ukr.net
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Crypto BTC:</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -128,7 +128,7 @@ const Credentials = () => {
             1PgLvcGNwerzKwtDSdvvgPLCgXDYfy8YZW
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Crypto ETH(ERC20):</p>
           <ClickToCopy
             popperIds={popperIds}
@@ -139,7 +139,7 @@ const Credentials = () => {
             0x6f69c7fc26f885934d48d0285fb8c1a992e4a2da
           </ClickToCopy>
         </li>
-        <li className="flex items-center flex-wrap">
+        <li className="flex items-center flex-wrap mb-4">
           <p className="mr-3 mb-0">Crypto USDT(TRC20):</p>
           <ClickToCopy
             popperIds={popperIds}

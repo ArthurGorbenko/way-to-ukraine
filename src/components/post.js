@@ -114,7 +114,7 @@ const Post = ({ body, images, videos }) => {
   const { t } = useTranslation()
 
   return (
-    <div className="flex flex-col border-b mb-4">
+    <div className="flex flex-col border-b mb-4 pb-5">
       <p>{t(body)}</p>
       {body === "posts.1.body" && (
         <div className="relative pb-[56.25%] pt-[25px] h-0 mb-4">
@@ -152,7 +152,7 @@ const Post = ({ body, images, videos }) => {
                     <img
                       src={IMAGES_MAP[image]}
                       className="max-w-full w-full object-cover h-[500px]"
-                      alt=""
+                      alt="Post"
                     />
                   </div>
                 </SwiperSlide>

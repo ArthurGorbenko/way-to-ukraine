@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 import Credentials from "../layouts/credentials"
 import CurrentAim from "../layouts/currentAim"
 
-const IndexPage = props => {
+const IndexPage = () => {
   const { t } = useTranslation()
 
   return (
