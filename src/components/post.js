@@ -47,11 +47,34 @@ import p11p14 from "../images/p11p14.jpeg"
 import p11p15 from "../images/p11p15.jpeg"
 import p12p1 from "../images/p12p1.jpeg"
 import p12p2 from "../images/p12p2.jpeg"
+import p13p1 from "../images/p13p1.jpeg"
+import p13p2 from "../images/p13p2.jpeg"
+import p13p3 from "../images/p13p3.jpeg"
+import p13p4 from "../images/p13p4.jpeg"
+import p13p5 from "../images/p13p5.jpeg"
+import p13p6 from "../images/p13p6.jpeg"
+import p13p7 from "../images/p13p7.jpeg"
+import p14p1 from "../images/p14p1.jpeg"
+import p14p2 from "../images/p14p2.jpeg"
+import p14p3 from "../images/p14p3.jpeg"
+import p14p4 from "../images/p14p4.jpeg"
+import p14p5 from "../images/p14p5.jpeg"
+import p14p6 from "../images/p14p6.jpeg"
+import p14p7 from "../images/p14p7.jpeg"
+import p14p8 from "../images/p14p8.jpeg"
+import p14p9 from "../images/p14p9.jpeg"
+import p15p1 from "../images/p15p1.jpeg"
+import p15p2 from "../images/p15p2.jpeg"
+import p15p3 from "../images/p15p3.jpeg"
+import p15p4 from "../images/p15p4.jpeg"
+import p15p5 from "../images/p15p5.jpeg"
 
 import p9v1 from "../videos/p9v1.mp4"
 import p10v1 from "../videos/p10v1.mp4"
 import p11v1 from "../videos/p11v1.mp4"
 import p11v2 from "../videos/p11v2.mp4"
+import p13v1 from "../videos/p13v1.mp4"
+import p14v1 from "../videos/p14v1.mp4"
 
 import "swiper/css"
 import "swiper/css/navigation"
@@ -101,6 +124,27 @@ const IMAGES_MAP = {
   p11p15,
   p12p1,
   p12p2,
+  p13p1,
+  p13p2,
+  p13p3,
+  p13p4,
+  p13p5,
+  p13p6,
+  p13p7,
+  p14p1,
+  p14p2,
+  p14p3,
+  p14p4,
+  p14p5,
+  p14p6,
+  p14p7,
+  p14p8,
+  p14p9,
+  p15p1,
+  p15p2,
+  p15p3,
+  p15p4,
+  p15p5,
 }
 
 const VIDEOS_MAP = {
@@ -108,6 +152,8 @@ const VIDEOS_MAP = {
   p10v1,
   p11v1,
   p11v2,
+  p13v1,
+  p14v1,
 }
 
 const Post = ({ body, images, videos }) => {
@@ -164,7 +210,7 @@ const Post = ({ body, images, videos }) => {
       {videos &&
         videos.length > 0 &&
         videos.map(video => (
-          <video controls width="540" className="mb-4">
+          <video controls width="540" className="my-4">
             <source src={VIDEOS_MAP[video]} type="video/mp4" />
           </video>
         ))}
