@@ -98,7 +98,20 @@ const data = [
   },
   {
     body: "posts.15.body",
-    images: ["p16p1", "p16p2", "p16p3", "p16p4", "p16p5","p16p6", "p16p7", "p16p8"],
+    images: [
+      "p16p1",
+      "p16p2",
+      "p16p3",
+      "p16p4",
+      "p16p5",
+      "p16p6",
+      "p16p7",
+      "p16p8",
+    ],
+  },
+  {
+    body: "posts.16.body",
+    images: ["p17p1", "p17p2"],
   },
 ]
 

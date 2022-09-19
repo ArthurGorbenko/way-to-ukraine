@@ -76,6 +76,8 @@ import p16p5 from "../images/p16p5.jpeg"
 import p16p6 from "../images/p16p6.jpeg"
 import p16p7 from "../images/p16p7.jpeg"
 import p16p8 from "../images/p16p8.jpeg"
+import p17p1 from "../images/p17p1.jpeg"
+import p17p2 from "../images/p17p2.jpeg"
 
 import p9v1 from "../videos/p9v1.mp4"
 import p10v1 from "../videos/p10v1.mp4"
@@ -161,6 +163,8 @@ const IMAGES_MAP = {
   p16p6,
   p16p7,
   p16p8,
+  p17p1,
+  p17p2,
 }
 
 const VIDEOS_MAP = {
