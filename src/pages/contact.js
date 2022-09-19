@@ -18,8 +18,8 @@ const IndexPage = props => {
       </p>
       <p>
         {t("contact.telegram")}
-        <a className="underline" href="tel:+380 50 474 0414">
-          +380 50 474 0414
+        <a className="underline" href="#">
+          @melnykov1508
         </a>
       </p>
     </Layout>

@@ -68,6 +68,14 @@ import p15p2 from "../images/p15p2.jpeg"
 import p15p3 from "../images/p15p3.jpeg"
 import p15p4 from "../images/p15p4.jpeg"
 import p15p5 from "../images/p15p5.jpeg"
+import p16p1 from "../images/p16p1.jpeg"
+import p16p2 from "../images/p16p2.jpeg"
+import p16p3 from "../images/p16p3.jpeg"
+import p16p4 from "../images/p16p4.jpeg"
+import p16p5 from "../images/p16p5.jpeg"
+import p16p6 from "../images/p16p6.jpeg"
+import p16p7 from "../images/p16p7.jpeg"
+import p16p8 from "../images/p16p8.jpeg"
 
 import p9v1 from "../videos/p9v1.mp4"
 import p10v1 from "../videos/p10v1.mp4"
@@ -145,6 +153,14 @@ const IMAGES_MAP = {
   p15p3,
   p15p4,
   p15p5,
+  p16p1,
+  p16p2,
+  p16p3,
+  p16p4,
+  p16p5,
+  p16p6,
+  p16p7,
+  p16p8,
 }
 
 const VIDEOS_MAP = {
