@@ -113,6 +113,23 @@ const data = [
     body: "posts.16.body",
     images: ["p17p1", "p17p2"],
   },
+  {
+    body: "posts.17.body",
+    images: ["p18p1", "p18p2"],
+  },
+  {
+    body: "posts.18.body",
+    images: [
+      "p19p1",
+      "p19p2",
+      "p19p3",
+      "p19p4",
+      "p19p5",
+      "p19p6",
+      "p19p7",
+      "p19p8",
+    ],
+  },
 ]
 
 const AchievementsPage = () => {
