@@ -130,6 +130,25 @@ const data = [
       "p19p8",
     ],
   },
+  {
+    body: "posts.19.body",
+    images: ["p20p1"],
+  },
+  {
+    body: "posts.20.body",
+    images: [
+      "p21p1",
+      "p21p2",
+      "p21p3",
+      "p21p4",
+      "p21p5",
+      "p21p6",
+      "p21p7",
+      "p21p8",
+      "p21p9",
+    ],
+    videos: ["p21v1"],
+  },
 ]
 
 const AchievementsPage = () => {

@@ -88,6 +88,16 @@ import p19p5 from "../images/p19p5.jpeg"
 import p19p6 from "../images/p19p6.jpeg"
 import p19p7 from "../images/p19p7.jpeg"
 import p19p8 from "../images/p19p8.jpeg"
+import p20p1 from "../images/p20p1.jpeg"
+import p21p1 from "../images/p21p1.jpeg"
+import p21p2 from "../images/p21p2.jpeg"
+import p21p3 from "../images/p21p3.jpeg"
+import p21p4 from "../images/p21p4.jpeg"
+import p21p5 from "../images/p21p5.jpeg"
+import p21p6 from "../images/p21p6.jpeg"
+import p21p7 from "../images/p21p7.jpeg"
+import p21p8 from "../images/p21p8.jpeg"
+import p21p9 from "../images/p21p9.jpeg"
 
 import p9v1 from "../videos/p9v1.mp4"
 import p10v1 from "../videos/p10v1.mp4"
@@ -95,6 +105,7 @@ import p11v1 from "../videos/p11v1.mp4"
 import p11v2 from "../videos/p11v2.mp4"
 import p13v1 from "../videos/p13v1.mp4"
 import p14v1 from "../videos/p14v1.mp4"
+import p21v1 from "../videos/p21v1.mp4"
 
 import "swiper/css"
 import "swiper/css/navigation"
@@ -185,6 +196,16 @@ const IMAGES_MAP = {
   p19p6,
   p19p7,
   p19p8,
+  p20p1,
+  p21p1,
+  p21p2,
+  p21p3,
+  p21p4,
+  p21p5,
+  p21p6,
+  p21p7,
+  p21p8,
+  p21p9,
 }
 
 const VIDEOS_MAP = {
@@ -194,6 +215,7 @@ const VIDEOS_MAP = {
   p11v2,
   p13v1,
   p14v1,
+  p21v1,
 }
 
 const Post = ({ body, images, videos }) => {
