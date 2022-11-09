@@ -3,7 +3,6 @@ import { useTranslation } from "gatsby-plugin-react-i18next"
 import { graphql } from "gatsby"
 import currentAimPhoto1 from "../images/current-aim-photo-1.jpeg"
 import currentAimPhoto2 from "../images/current-aim-photo-2.jpeg"
-import currentAimPhoto3 from "../images/current-aim-photo-3.jpeg"
 
 const CurrentAim = () => {
   const { t } = useTranslation()
@@ -13,24 +12,19 @@ const CurrentAim = () => {
       <p>{t("current-aim")}</p>
       <div className="flex flex-wrap">
         <img
-          className="w-full object-contain"
+          className="w-full lg:w-1/2 object-cover"
           src={currentAimPhoto2}
           alt="current aim 1"
         />
         <img
-          className="w-1/2 object-cover"
+          className="w-full lg:w-1/2 object-cover"
           src={currentAimPhoto1}
           alt="current aim 2"
-        />
-        <img
-          className="w-1/2 object-cover"
-          src={currentAimPhoto3}
-          alt="current aim 3"
         />
       </div>
       <a
         className="underline inline-block mt-4"
-        href="https://send.monobank.ua/jar/RtKwfh5Kn"
+        href="https://send.monobank.ua/jar/5fdCxgctHi"
         target="blank"
       >
         {t("current-aim.link")}
